@@ -63,4 +63,16 @@ body { width: 100%;}
 ******************************************************/
 
 
+/*
+ Global Rules
+ */
+
+body {
+	font-family: monospace, "Courier New";
+}
+
+section {
+	padding: 2.5rem 0
+}
+
 
