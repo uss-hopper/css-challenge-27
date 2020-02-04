@@ -62,7 +62,6 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-
 /*
  Global Rules
  */
@@ -71,8 +70,146 @@ body {
 	font-family: monospace, "Courier New";
 }
 
+
 section {
-	padding: 2.5rem 0
+	padding: 2.5rem 0;
 }
+
+/*
+* Header Rules
+*/
+
+header{
+	background-color: #333;
+	color: lime;
+}
+
+header h1{
+	display: inline-block;
+	margin-right: 1.5rem;
+	font-size: 2.5rem;
+}
+
+/*****************************************************
+* Welcome Styles
+ ******************************************************/
+img[alt="welcome to my homepage"] {
+	display:block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border : 3px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img{
+	width: 250px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2{
+	margin-top: 0
+}
+
+/*
+About Me
+*/
+section.about-me {
+	background-color: blue;
+	color: white;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+
+/*
+* Skillz
+*/
+
+
+
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+
+}
+
+
+section:nth-child(4) table tr,
+section:nth-child(4) table td {
+	background-color: #333;
+	padding: 10px;
+}
+
+/*
+* contact form
+*/
+
+
+div.sfooter-content section:last-child{
+	background-color: #333;
+}
+
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: lime;
+	padding: 20px;
+}
+
+label {
+	display: flex;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 30vw;
+	padding: 8px;
+}
+
+button {
+	background-color: lime;
+	padding: 10px 31px;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+}
+
+form div:nth-child(4) {
+	margin-bottom: 15px;
+}
+
+
+.form-wrapper h2 {
+	margin-top: 0;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
 
 
